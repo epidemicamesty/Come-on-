@@ -1,0 +1,10 @@
+{
+  "name": "scrapergod",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'static site'"
+  }
+}

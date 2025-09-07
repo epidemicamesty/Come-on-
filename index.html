@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ScraperGod Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>⚡ ScraperGod</h1>
+    <form id="scraper-form">
+      <input id="query" type="text" placeholder="Try: rule34 naruto, e621 wolf, gelbooru mecha, reddit memes" required />
+      <button type="submit">Search</button>
+    </form>
+    <div id="status"></div>
+    <div id="results" class="grid"></div>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
